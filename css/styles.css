@@ -238,7 +238,6 @@ img {
 
 .featutes-item {
   margin-right: 30px;
-  width: 270px;
 }
 .featutes-item:last-child {
   margin-right: 0px;
@@ -251,6 +250,16 @@ img {
   font-weight: var(--primary-fw-title);
   font-size: 14px;
   line-height: 1.5;
+}
+
+.features-box {
+  display: flex;
+  margin-bottom: 30px;
+  background: rgba(245, 244, 250, 1);
+}
+.features-icon {
+  width: 270px;
+  height: 120px;
 }
 /* Our work */
 .section-title {
@@ -312,6 +321,44 @@ img {
 .team-text {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.socials-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials-item {
+  width: 44px;
+  height: 44px;
+}
+.socials-icon {
+  width: 44px;
+  height: 44px;
+}
+
+.socials-link {
+  width: 44px;
+  height: 44px;
+}
+/* CLients */
+.clients-list {
+  display: flex;
+}
+
+.clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+.clients-link {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 72px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 /* Footer */
 .footer-section {
